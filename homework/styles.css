@@ -1,0 +1,314 @@
+.menu {
+  text-align: center;
+
+}
+.menu ul {
+    text-align: center;
+  list-style: none;
+  
+}
+.menu li {
+  display: inline-block;
+  padding: 50px;
+  
+  text-align: center;
+}
+.menu a {
+    text-align: center;
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Lato';
+  padding: 35px;
+  margin: 0px;
+}
+.menu a:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+h2{
+    display: flex;
+    place-content: center;
+  
+}
+
+body{
+  
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0px;
+}
+
+
+slider {
+display: block;
+width: 100%;
+height: 50%;
+background-image: url(https://wallpaperaccess.com/full/419090.jpg);
+background-position: center;
+overflow: hidden;
+position: absolute;
+background: cover;
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px) {
+  slider {
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-image: url(https://wallpaperaccess.com/full/419090.jpg);
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    background: cover;
+    }
+}
+
+slider > * {
+position: absolute;
+display: block;
+width: 100%;
+height: 100%;
+animation: mymove infinite;
+animation-duration: 48s;
+overflow: hidden;
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px) {
+  slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: mymove infinite;
+    animation-duration: 48s;
+    overflow: hidden;
+   
+   }
+}
+
+
+slide:nth-child(1) {
+
+background-image: url(https://tul.imgix.net/content/article/happy-sailors-barber-shop.jpg?auto=format,compress&w=520&h=390&fit=crop);
+background-size: fit-content;
+background-repeat: no-repeat;
+background-position: center;
+left: -400%;
+animation-delay: 0s;
+}
+
+slide:nth-child(2)
+{
+
+background-image: url(https://media.istockphoto.com/photos/cheerful-young-hair-dresser-at-a-barber-shop-cutting-a-customers-hair-picture-id1031633214?k=20&m=1031633214&s=612x612&w=0&h=6wPPkt7S0Ebt9ofHR15z-Ru67f4ahQSrybYqWoz1Yi8=);
+background-size: fit-content;
+background-repeat: no-repeat;
+background-position: center;
+left: -400%;
+animation-delay: 8s;
+}
+
+slide:nth-child(3)
+{
+background-image: url(https://www.americanbarber.com/pictures/npic22.jpg);
+background-size: fit-content;
+background-repeat: no-repeat;
+background-position: center;
+left: -400%;
+animation-delay: 16s;
+
+}
+
+slide:nth-child(4)
+{
+background-image: url(https://d375139ucebi94.cloudfront.net/region2/gb/40638/biz_photo/0cdc12e64c7341c99e668ea8c158de-cut-masterz-biz-photo-4cf32e9abfcb47b59d0e7c5d6a8852-booksy.jpeg?size=640x427);
+background-size: fit-content;
+background-repeat: no-repeat;
+background-position: center;
+left: -400%;
+animation-delay: 24s;
+}
+slide:nth-child(5)
+{
+background-image: url(https://media.istockphoto.com/photos/barbershop-concept-handsome-hairdresser-cutting-hair-of-male-client-picture-id1150112085?k=20&m=1150112085&s=612x612&w=0&h=CopovMCvW2dai7wtv0yEfcT1JT6IeU-SWDg5uitTMD4=);
+background-size: fit-content;
+background-repeat: no-repeat;
+background-position: center;
+left: -400%;
+animation-delay: 32s;
+}
+slide:nth-child(6)
+{
+background-image: url(https://i3.ypcdn.com/blob/362055670d3b4ccf8e7d0767f4efb6ecb17ff777_576.jpg);
+background-size: fit-content;
+background-repeat: no-repeat;
+background-position: center;
+left: -400%;
+animation-delay: 40s;
+}
+
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  @keyframes mymove {
+    from {left: 100%;}
+    to {right: 0%;}
+    }
+}
+@keyframes mymove {
+from {left: 100%;}
+to {right: 0%;}
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  .about p {
+    font-size: 22px;
+    font-family: 'lato';
+    width: 100%;
+    text-align: center;
+
+
+  }
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  .about img {
+    height: 100%;
+    width: 100%;
+    
+    
+    
+  }
+}
+
+.about {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'lato';
+  font-size: 30px;
+  width: 90%;
+  margin: 17em auto auto auto;
+  
+ 
+
+}
+.about img{
+  height: 10%;
+  width: 70%;
+  
+}
+.review {
+  text-align: center;
+  
+}
+
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#000000;
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1400px) and (max-width: 1050px) and (min-device-width: 300px){
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+}
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1400px) and (max-width: 1024px) and (min-device-width: 300px){
+  .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0px 8px auto 20px;
+    
+  }
+}
+.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  margin:0px 8px auto 20px;
+  
+}
+
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1400px) and (max-width: 1024px) and (min-device-width: 300px){
+  .footer-basic .copyright {
+    margin-top:5px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  .icon-twitter{
+    height: 95%;
+    width: 100%;
+    align-items: center;
+  
+  }
+}
+.icon-twitter{
+  height: 95%;
+  width: 100%;
+  align-items: center;
+
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  .icon-snapcht{
+    height: 100%;
+    width: 100%;
+  
+  }
+}
+.icon-snapcht{
+  height: 100%;
+  width: 100%;
+
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  .icon-github{
+    height: 120%;
+    width: 120%;
+    margin: auto auto -.2em auto;
+  
+  }
+}
+.icon-github{
+  height: 120%;
+  width: 120%;
+  margin: auto auto -.2em auto;
+
+}
+@media only screen and (min-device-height: 600px) and (max-device-height: 1366px) and (max-width: 1024px) and (min-device-width: 300px){
+  .icon-instgram{
+    height: 110%;
+    width: 110%;
+    margin: auto auto auto auto;
+  }
+}
+.icon-instgram{
+  height: 110%;
+  width: 110%;
+  margin: auto auto auto auto;
+}
